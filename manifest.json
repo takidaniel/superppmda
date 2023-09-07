@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "SuperPPMDA",
+  "version": "1.0",
+  "description": "Make Power Platform Model Driven App more user friendly",
+  "icons": {
+    "16": "images/superppmda16.png",
+    "32": "images/superppmda32.png",
+    "48": "images/superppmda48.png",
+    "128": "images/superppmda128.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/index.js"],
+      "matches": [
+        "https://*.crm.dynamics.com/*"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "superppmda",
+  "version": "1.0.0",
+  "description": "Chrome Extension for Power Platform Model Driven App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "tsc --init",
+    "start": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takidaniel/superppmda.git"
+  },
+  "author": "Daniel Mieszkowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takidaniel/superppmda/issues"
+  },
+  "homepage": "https://github.com/takidaniel/superppmda#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
