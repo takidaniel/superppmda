@@ -1,12 +1,15 @@
 {
   "name": "superppmda",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chrome Extension for Power Platform Model Driven App",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "init": "tsc --init",
-    "start": "tsc --watch"
+    "start": "tsc --watch",
+    "getVersion": "npm pkg get version",
+    "version": "node -e console.log(require('./package.json').version);",
+    "build": "ts-node build.ts"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,9 @@
   "homepage": "https://github.com/takidaniel/superppmda#readme",
   "devDependencies": {
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/node": "^20.5.9",
+    "ts-node": "^10.9.1"
   }
 }
